@@ -11,11 +11,12 @@ class Game:
         self.display_board = Display_Board()
 
     def make_deck(self):
+        suits = ["clubs", "hearts", "diamonds", "spades"]
         self.deck = []
         types = ["2","3","4","5","6","7","8","9","10","jack","queen","king","ace"]
         for value in types:
             for i in range(4):
-                self.deck.append(Card(value))
+                self.deck.append(Card(value, suits[i]))
         random.shuffle(self.deck)
         
 

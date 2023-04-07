@@ -6,9 +6,12 @@ The next card is revealed and if the player is right, the game continues, guessi
 If the player is wrong, the game ends and the player loses.
 If the final card is revealed with the player guessing higher or lower correctly, they win.
 The player can choose to swap the first card and the fifth card when they are reached.
-# Usage
-To run the game, use one of the methods in play.py with a player class. Examples can be found and run in main.py
+# Command Line Use
+To run the command line game, use one of the methods in play.py with a player class. Examples can be found and run in main.py
+Both a human player and an ai player exist
 
+# GUI Use
+To run the gui game, run gui.py
 # Custom Players
 Any player that extends the abstract class Player can be used to play
 

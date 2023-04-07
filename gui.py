@@ -4,18 +4,7 @@ import copy
 import tkinter as tk
 from tkinter import ttk
 from PIL import ImageTk, Image
-
-
-def button_click(value):
-    if value == 1:
-        print("higher")
-    else:
-        print("Lower")
-
-
-
-        
-
+      
 class GUI(tk.Frame):
     
     def __init__(self, master=None):

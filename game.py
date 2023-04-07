@@ -46,7 +46,7 @@ class Game:
             self.display_board.print()
 
             if position == [1,0] or position == [0,0]:
-                if player.swap() == 1:
+                if player.swap(card, self.board) == 1:
                     card = self.swap_card(position)
                     self.display_board.print()
             
@@ -54,7 +54,7 @@ class Game:
             self.display_board.update(next_position, next_card)
 
 
-            choice = player.choose()
+            choice = player.choose(card, self.board)
 
             if choice == 1:
                 if not card.higher(next_card):

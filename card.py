@@ -1,5 +1,6 @@
 class Card:
-    def __init__(self, card):
+    def __init__(self, card, suit):
+        self.suit = suit
         self.name = card
         if card.isnumeric():
             self.value = int(card)

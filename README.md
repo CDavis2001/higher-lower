@@ -7,4 +7,7 @@ If the player is wrong, the game ends and the player loses.
 If the final card is revealed with the player guessing higher or lower correctly, they win.
 The player can choose to swap the first card and the fifth card when they are reached.
 # Usage
-To play the game, run main.py
+To run the game, use one of the methods in play.py with a player class. Examples can be found and run in main.py
+
+# Custom Players
+Any player that extends the abstract class Player can be used to play

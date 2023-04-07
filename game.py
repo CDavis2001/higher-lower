@@ -46,7 +46,7 @@ class Game:
             next_card = copy.copy(self.board.get(next_position))
             self.display_board.print()
 
-            if position == [1,0] or position == [0,0]:
+            if position == [0,4] or position == [0,0]:
                 if player.swap(card, self.board) == 1:
                     card = self.swap_card(position)
                     self.display_board.print()

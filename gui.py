@@ -174,7 +174,7 @@ class GUI(tk.Frame):
             next_position = self.game.translate(place)
             next_card = copy.copy(self.game.board.get(next_position))
             self.show(position, card)
-            if position == [1,0] or position == [0,0]:
+            if position == [0,4] or position == [0,0]:
                 self.info.configure(text="Swap or Keep")
                 self.master.wait_variable(self.swap)
                 if self.swap.get() == 1:

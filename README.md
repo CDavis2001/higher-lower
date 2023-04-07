@@ -11,3 +11,6 @@ To run the game, use one of the methods in play.py with a player class. Examples
 
 # Custom Players
 Any player that extends the abstract class Player can be used to play
+
+# Credit
+The card images are in the public domain and sourced from https://code.google.com/archive/p/vector-playing-cards/
